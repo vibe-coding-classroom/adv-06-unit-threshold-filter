@@ -1,0 +1,11 @@
+{
+  "name": "adv-06-unit-threshold-filter",
+  "version": "1.0.0",
+  "description": "二值化與濾波 (Binarization & Filtering)",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}

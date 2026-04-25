@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Task 1: Filter Accuracy (Threshold & Grayscale)",
+      "setup": "npm install",
+      "run": "npx jest tests/filter_accuracy.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    },
+    {
+      "name": "Task 2: Convolution Filters (Median Filter)",
+      "setup": "npm install",
+      "run": "npx jest tests/convolution.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    }
+  ]
+}
