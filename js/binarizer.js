@@ -3,16 +3,12 @@
  */
 
 function convertToGrayscale(r, g, b) {
-    // TODO: 學生需實作灰階轉換公式
-    // let gray = (r * 0.299 + g * 0.587 + b * 0.114);
-    // return gray;
-    return 0;
+    let gray = (r * 0.299 + g * 0.587 + b * 0.114);
+    return gray;
 }
 
 function applyThreshold(gray, threshold) {
-    // TODO: 學生需實作灰階門檻判定
-    // return (gray > threshold) ? 255 : 0;
-    return 0;
+    return (gray > threshold) ? 255 : 0;
 }
 
 module.exports = {

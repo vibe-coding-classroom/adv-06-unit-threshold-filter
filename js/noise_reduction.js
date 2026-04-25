@@ -3,15 +3,13 @@
  */
 
 function applyMeanFilter(window) {
-    // TODO: 學生需實作均值濾波
-    // 計算 window (陣列) 的平均值
-    return 0;
+    let sum = window.reduce((a, b) => a + b, 0);
+    return sum / window.length;
 }
 
 function applyMedianFilter(window) {
-    // TODO: 學生需實作中值濾波
-    // 排序 window 取中間值
-    return 0;
+    let sorted = [...window].sort((a, b) => a - b);
+    return sorted[Math.floor(sorted.length / 2)];
 }
 
 module.exports = {
