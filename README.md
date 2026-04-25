@@ -1,5 +1,3 @@
-Viewed adv-06-unit-threshold-filter.html:1-386
-
 針對 **`adv-06-unit-threshold-filter` (二值化與濾波)** 單元，這是數位影像處理 (DIP) 的基礎，也是機器視覺的門檻。它要求學生理解如何將雜亂的色彩訊號「降維」成純粹的特徵數據。
 
 以下是在 **GitHub Classroom** 部署其作業 (Assignments) 的具體建議：
